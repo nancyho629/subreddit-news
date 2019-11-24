@@ -4,7 +4,7 @@ class Post extends Component {
   render () {
     return (
       <div>
-        {this.props.title}
+        <a target="_blank" rel="noopener noreferrer" href={ this.props.url} >{this.props.title} </a>
       </div>
     )
   }
