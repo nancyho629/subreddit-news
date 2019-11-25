@@ -1,12 +1,5 @@
-import React, { Fragment } from 'react'
-import Nav from 'react-bootstrap/Nav'
+import React from 'react'
 import Navbar from 'react-bootstrap/Navbar'
-
-const alwaysOptions = (
-  <Fragment>
-    <Nav.Link to="/">Home</Nav.Link>
-  </Fragment>
-)
 
 const Header = ({ user }) => (
   <Navbar bg="primary" variant="dark" expand="md">
@@ -15,9 +8,6 @@ const Header = ({ user }) => (
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
-      <Nav className="ml-auto">
-        { alwaysOptions }
-      </Nav>
     </Navbar.Collapse>
   </Navbar>
 )
