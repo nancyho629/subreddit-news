@@ -19,7 +19,8 @@ class App extends Component {
     }
 
     loadPosts = (sub) => {
-      r.getTop(sub).then(result => {
+      r.getTop(sub)
+        .then(result => {
         this.setState({ page: Array.from(result) })
       })
     }
