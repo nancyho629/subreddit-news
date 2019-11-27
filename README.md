@@ -15,7 +15,7 @@ As a user, I want to:
 - HTML
 - CSS
 
-Utilized Material UI for styling and Snoowrap as a wrapper for the Reddit API.
+Utilized Material UI for styling and Snoowrap as a wrapper for the Reddit API. Made with General Assembly's Create React App Template.
 
 ## Next Steps
 - Debug issue obtaining author of each post
