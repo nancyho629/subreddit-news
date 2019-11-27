@@ -14,7 +14,6 @@ As a user, I want to:
 - Javascript
 - HTML
 - CSS
-- Material UI
 
 ## Next Steps
 - Debug issue obtaining author of each post

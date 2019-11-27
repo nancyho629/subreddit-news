@@ -2,15 +2,11 @@ import React, { Component, Fragment } from 'react'
 import Page from '../Page/Page'
 import Header from '../Header/Header'
 import Subreddit from '../Subreddit/Subreddit'
+import oauth from './oauth.json'
 const snoowrap = window.snoowrap
 
 /* eslint-disable */
-const r = new snoowrap({
-  userAgent: 'technical_webapp',
-  clientId: 'whG9u7l3aSFBgw',
-  clientSecret: 'cRRP17VUmSDSxV6_EW4Yquj3voA',
-  refreshToken: '355032871146-s9rhGldwH4zm_0Axnwpo_aZC_Vw'
-})
+const r = new snoowrap(oauth)
 
 class App extends Component {
     state = {
