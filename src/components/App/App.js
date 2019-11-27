@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 import Page from '../Page/Page'
 import Header from '../Header/Header'
 import Subreddit from '../Subreddit/Subreddit'
-import snoowrap from 'snoowrap'
+const snoowrap = window.snoowrap
 
 /* eslint-disable */
 const r = new snoowrap({
