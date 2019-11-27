@@ -15,6 +15,8 @@ As a user, I want to:
 - HTML
 - CSS
 
+Utilized Material UI for styling and Snoowrap as a wrapper for the Reddit API.
+
 ## Next Steps
 - Debug issue obtaining author of each post
 - Render comments and replies
